@@ -2,7 +2,7 @@ library(httr)
 library(jsonlite)
 
 # User access token obtained from Facebook Login
-user_access_token <- "EAAETnmiGvpQBO5VEuVbdBeBcj5LQ7oe5QKgLGmTGNNZAVRDtZB8ZBG2MR6BpZBrYT60BoNZABpZC2AsaiYIfsEwl0WmfOyjhNh3ZCqVj7gaqo90dw9o8rk9wneNg9aFuZAQ8jAaGSJszMcRoBQZCSkvOpRwBZCIjFvu3LdxSIP841o1voiOUdbRRZBxJKGVgDZB1ZCuyYfRpQVJ4QZAk4VN0CYnv9HZBCkh"
+user_access_token <- "[Brand's Facebook access token]"
 
 # Step 1: Get Page Access Token
 pages_url <- paste0("https://graph.facebook.com/v20.0/me/accounts?access_token=", user_access_token)
@@ -13,7 +13,7 @@ pages_info <- fromJSON(content(pages_response, "text"))
 print(pages_info)
 
 # Extract the Page Access Token for the specific page
-page_id <- "370180529500817" 
+page_id <- "[Brand's page ID]" 
 page_access_token <- NULL
 
 for (page in pages_info$data) {
