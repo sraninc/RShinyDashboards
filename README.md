@@ -42,7 +42,11 @@ This project features a **Social Media Analytics Dashboard** built using **R Shi
 ---
 
 ## Screenshots
-Images shared separately.
+
+![Social media dashboard 1](https://github.com/user-attachments/assets/fa7c8c69-435a-49a2-8618-68bf0ff75d1c)
+![Social Media Dashboard 2](https://github.com/user-attachments/assets/8bfa3ad3-dec5-404e-8e9c-c56b28ea77d9)
+![Social Media Dashboard 3](https://github.com/user-attachments/assets/38bb3281-7296-4772-8b06-a44620a29ea5)
+
 
 ---
 
